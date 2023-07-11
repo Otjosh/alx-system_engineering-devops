@@ -1,2 +1,2 @@
-#!/bi
-ls -1 | cut -d- -f2- | grep -E "^[0-9]+-(rot13|water_and_stir|binary_to_decimal|print_float|path|global_variables|create_local_variable|true_knowledge)$"
+#!/bin/bash
+echo "ibase=water; obase=bestchol; $WATER+$STIR" | bc
